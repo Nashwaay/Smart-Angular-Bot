@@ -1,0 +1,18 @@
+{
+  "CHAT": {
+    "TITLE": "Angular Chatbot",
+    "SEND": "Send",
+    "INPUT_PLACEHOLDER": "Type a message..."
+  },
+  "LANGUAGE": {
+    "SELECT": "Select Language",
+    "EN": "English",
+    "ES": "Spanish",
+    "FR": "French",
+    "DE": "German",
+    "AR": "Arabic"
+  },
+  "RESPONSES": {
+    "ERROR": "I apologize, but I encountered an error. Please try again."
+  }
+}

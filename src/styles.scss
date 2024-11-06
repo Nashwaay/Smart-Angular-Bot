@@ -1,0 +1,85 @@
+// Theme Colors
+$theme-colors: (
+  'primary': #387478,
+  'secondary': #243642,
+  'success': #629584,
+  'info': #4f75ff,
+  'warning': #e85c0d,
+  'danger': #c7253e,
+  'light': #e2f1e7,
+  'dark': #629584,
+);
+
+// Custom Variables
+$focus-color: #629584;
+$chat-bg: #f8f9fa;
+$message-radius: 1rem;
+$header-height: 4rem;
+$footer-height: 4rem;
+$container-max-width: 1200px;
+
+// Import Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.form-control:focus {
+  border-color: $focus-color;
+  box-shadow: 0 0 0 0.25rem rgba($focus-color, 0.25);
+}
+
+
+// Custom Styles
+.card {
+  height: 85vh;
+  max-width: $container-max-width;
+  margin: 0 auto;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.messages-container {
+  background-color: $chat-bg;
+  height: calc(85vh - #{$header-height} - #{$footer-height});
+}
+
+.message {
+  border-radius: $message-radius;
+  max-width: 70%;
+
+  &.bg-primary {
+    background-color: var(--bs-primary) !important;
+  }
+}
+
+// RTL Support
+[dir='rtl'] {
+  .dropdown-menu {
+    text-align: right;
+  }
+
+  .message-content {
+    text-align: right;
+  }
+
+  .input-group {
+    > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
+        .valid-feedback
+      ):not(.invalid-tooltip):not(.invalid-feedback) {
+      margin-right: -1px;
+      margin-left: 0;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      border-top-left-radius: $message-radius;
+      border-bottom-left-radius: $message-radius;
+    }
+
+    > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(
+        .form-floating
+      ) {
+      margin-left: -1px;
+      margin-right: 0;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      border-top-right-radius: $message-radius;
+      border-bottom-right-radius: $message-radius;
+    }
+  }
+}

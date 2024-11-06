@@ -1,0 +1,19 @@
+{
+  "CHAT": {
+    "TITLE": "Chat Bot Angular"
+  },
+  "LANGUAGE": {
+    "SELECT": "Choisir la Langue",
+    "EN": "Anglais",
+    "ES": "Espagnol",
+    "FR": "Français",
+    "DE": "Allemand",
+    "AR": "Arabe"
+  },
+  "RESPONSES": {
+    "HELLO": "Bonjour! Comment puis-je vous aider aujourd'hui?",
+    "HOW_ARE_YOU": "Je vais très bien, merci de demander!",
+    "BYE": "Au revoir! Passez une bonne journée!",
+    "DEFAULT": "Je ne sais pas comment répondre à cela. Pourriez-vous reformuler?"
+  }
+}

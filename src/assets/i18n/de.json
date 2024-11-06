@@ -1,0 +1,19 @@
+{
+  "CHAT": {
+    "TITLE": "Angular Chatbot"
+  },
+  "LANGUAGE": {
+    "SELECT": "Sprache Auswählen",
+    "EN": "Englisch",
+    "ES": "Spanisch",
+    "FR": "Französisch",
+    "DE": "Deutsch",
+    "AR": "Arabisch"
+  },
+  "RESPONSES": {
+    "HELLO": "Hallo! Wie kann ich Ihnen heute helfen?",
+    "HOW_ARE_YOU": "Mir geht es gut, danke der Nachfrage!",
+    "BYE": "Auf Wiedersehen! Haben Sie einen schönen Tag!",
+    "DEFAULT": "Ich bin mir nicht sicher, wie ich darauf antworten soll. Könnten Sie das umformulieren?"
+  }
+}
